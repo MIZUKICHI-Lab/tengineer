@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+import '../widget/home.dart';
+
 class TabletScreen extends StatefulWidget {
   const TabletScreen({Key? key}) : super(key: key);
 
@@ -12,6 +14,6 @@ class TabletScreen extends StatefulWidget {
 class _TabletScreenState extends State<TabletScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(body: HomeWidget());
   }
 }

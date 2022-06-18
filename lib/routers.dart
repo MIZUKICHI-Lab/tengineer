@@ -7,7 +7,7 @@ import 'screens/nav_screen.dart';
 class Routes {
   static const home = '/home';
 
-  static routes() {
+  static GoRouter routes() {
     return GoRouter(
         initialLocation: home,
         redirect: (state) {},

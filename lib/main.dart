@@ -17,10 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-     routerDelegate:Routes.routes().routerDelegate ,
-     routeInformationParser: Routes.routes().routeInformationParsser,
+      routerDelegate: Routes.routes().routerDelegate,
+      routeInformationParser: Routes.routes().routeInformationParser,
     );
   }
 }
-
-
